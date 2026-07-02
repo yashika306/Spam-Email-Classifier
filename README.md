@@ -21,17 +21,18 @@ Users can:
 
 ## 🚀 Features
 
-- 📧 Classify Email/SMS as Spam or Ham
-- 🤖 Compare **Naive Bayes** and **Logistic Regression**
-- 📊 Display Spam Probability
-- ⚡ Real-time predictions
+- 📧 Spam/Ham Email Classification
+- 🤖 Compare Naive Bayes & Logistic Regression
+- 📊 Spam Probability Score
+- 📈 Model Comparison Table
+- ⚡ Real-Time Prediction
 - 🎨 Interactive Streamlit UI
-- 📈 Model comparison table
-- 💾 Saved ML models using Joblib
+- 💾 Saved Models using Joblib
+- 🌐 Live Deployment on Streamlit
 
 ---
 
-## 🖥️ Live Demo
+# 🖥️ Live Demo
 
 👉 https://span-email-classifier.streamlit.app/
 
@@ -159,6 +160,19 @@ This project uses the **Spam Email Dataset** available on Kaggle.
 - **Columns:**
   - **Category** — Label indicating whether the message is **spam** or **ham**
   - **Message** — Raw email/SMS text used for classification
+
+---
+
+# 🧹 Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Removed duplicate messages
+- Label Encoding
+- Train-Test Split (80:20)
+- TF-IDF Vectorization
+- English Stop-word Removal
+- Vocabulary Limitation (`max_features=3000`)
 
 ---
 
