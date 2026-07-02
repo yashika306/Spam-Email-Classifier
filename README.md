@@ -147,11 +147,18 @@ streamlit run app.py
 
 ## 📊 Dataset
 
-**SMS Spam Collection Dataset**
+This project uses the **Spam Email Dataset** available on Kaggle.
 
-- Source: UCI Machine Learning Repository
-- Kaggle Version:
-  https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+- **Dataset:** Spam Email Dataset
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/datasets/abdmental01/email-spam-dedection
+
+### Dataset Information
+
+- **Rows:** 5,000+ email/SMS messages
+- **Columns:**
+  - **Category** — Label indicating whether the message is **spam** or **ham**
+  - **Message** — Raw email/SMS text used for classification
 
 ---
 
@@ -213,7 +220,6 @@ Naive Bayes   Logistic Regression
 - Classification Report
 
 ---
-
 
 ## 🎯 Learning Outcomes
 
