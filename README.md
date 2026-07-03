@@ -34,7 +34,7 @@ Users can:
 
 # 🖥️ Live Demo
 
-👉 https://span-email-classifier.streamlit.app/
+👉 [spam-ham-email-classifier.streamlit.app](https://spam-ham-email-classifier.streamlit.app/)
 
 ---
 
